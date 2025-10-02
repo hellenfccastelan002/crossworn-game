@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossWorn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div id="intro-screen" class="intro-screen">
+        <img src="./imagem/background_title.png" alt="Tela de Título CrossWorn" class="intro-background">
+        <img id="startButton" class="start-button-image" src="./imagem/start_buttom.png" alt="Iniciar Jogo">
+    </div>
+
+    <div class="game-board">
+        <img src="./imagem/monstro.png" class="monstro">
+        <img src="./imagem/mario.gif" class="mario">
+        <img src="./imagem/pipe.png" class="pipe">
+    </div>
+
+    <div class="score">Pontuação: <span id="score">0</span></div>
+
+    <div id="game-over-screen" class="hiden">
+        <img id="restart-image" src="./imagem/you_died_screen.png" alt="Clique para reiniciar">
+    </div>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
