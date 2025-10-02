@@ -29,12 +29,11 @@
 }
 
 .start-button-image {
-    width: 300px;
+    width: 900px;
     height: auto;
     position: absolute;
     top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 70%;
     cursor: pointer;
     z-index: 10;
 }

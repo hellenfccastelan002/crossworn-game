@@ -72,6 +72,7 @@ const stopMoveMario = (event) => {
         marioMovingLeft = false;
     }
 }
+startButton.addEventListener('click', startGame);
 
 const startGame = () => {
     gameStarted = true;
