@@ -24,15 +24,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     z-index: 1;
 }
 
 .start-button-image {
-    width: 200px;
+    width: 300px;
     height: auto;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
