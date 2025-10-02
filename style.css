@@ -32,8 +32,8 @@
     width: 900px;
     height: auto;
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 40%;
+    left: 50%;
     cursor: pointer;
     z-index: 10;
 }
