@@ -4,6 +4,7 @@ const gameOverScreen = document.getElementById("game-over-screen");
 const scoreElement = document.querySelector(".score span");
 const monstro = document.querySelector(".monstro");
 const startButton = document.getElementById("startButton"); 
+const gameBoard = document.getElementById("game-board");
 const introScreen = document.querySelector(".intro-screen");
 
 let gameStarted = false;
