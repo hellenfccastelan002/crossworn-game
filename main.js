@@ -77,7 +77,7 @@ const stopMoveMario = (event) => {
 const startGame = () => {
     gameStarted = true;
 
-    introScreen.classList.add('hidden');
+
     pipe.style.animation = "pipe-animation 1.5s infinite linear";
 
     startButton.style.display = "none";
