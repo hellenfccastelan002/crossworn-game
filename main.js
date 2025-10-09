@@ -17,8 +17,6 @@ let monstroLeft = -250;
 const marioSpeed = 2; 
 const monstroSpeed = 1;  
 
-startButton.addEventListener('click', startGame);
-
 const restartGame = () => {
     window.location.reload();
 }
@@ -91,6 +89,8 @@ const startGame = () => {
     document.addEventListener("keydown", moveMario);
     document.addEventListener("keyup", stopMoveMario);
 }
+
+startButton.addEventListener('click', startGame);
 
 const jump = () => {
     if (!gameStarted || mario.classList.contains("jump")) return; 
