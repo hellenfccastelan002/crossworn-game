@@ -6,6 +6,7 @@ const monstro = document.querySelector(".monstro");
 const startButton = document.getElementById("startButton"); 
 const gameBoard = document.getElementById("game-board");
 const introScreen = document.querySelector(".intro-screen");
+const title = document.querySelector(".intro-background");
 
 let gameStarted = false;
 let score = 0;
@@ -75,7 +76,8 @@ const stopMoveMario = (event) => {
 const startGame = () => {
     gameStarted = true;
 
-
+    title.style.opacity = "0";
+    
     pipe.style.animation = "pipe-animation 1.5s infinite linear";
 
     startButton.style.display = "none";
