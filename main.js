@@ -13,7 +13,7 @@ let score = 0;
 let loopInterval; 
 let backgroundChanged = false;
 
-let marioLeft = 100; 
+let marioLeft = 250; 
 let monstroLeft = -250; 
 const marioSpeed = 2; 
 const monstroSpeed = 1;  
@@ -31,7 +31,7 @@ const handleGameOver = (objectPosition, marioCurrentPosition) => {
 
     mario.style.animation = "none";
     mario.style.left = `${marioCurrentPosition}px`; 
-    mario.style.bottom = "40px";
+    mario.style.bottom = "160px";
 
     mario.src = "./imagem/game-over.png";
     mario.style.width = "75px";
@@ -144,7 +144,7 @@ const loop = () => {
     }
     monstro.style.left = `${monstroLeft}px`;
 
-    if (pipePosition <= marioLeft + mario.offsetWidth && pipePosition + pipe.offsetWidth >= marioLeft && marioBottomPosition < 80) {
+    if (pipePosition <= marioLeft + mario.offsetWidth && pipePosition + pipe.offsetWidth >= marioLeft && marioBottomPosition < 200) {
         
         handleGameOver({pipe: pipePosition}, marioLeft); 
     }
