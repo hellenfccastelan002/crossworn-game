@@ -56,7 +56,7 @@
     background-position: center bottom;
 }
 
-.game-board {
+.game-board-vermelho {
     background-image: url('./imagem/background_vermelho_final.png');
     background-position: center bottom !important;
     background-size: cover !important;
